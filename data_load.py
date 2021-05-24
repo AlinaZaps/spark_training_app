@@ -2,8 +2,6 @@ import ibm_db_dbi as db  # provides connection to IBM DB
 import os  # provides access to system variables
 import random
 
-conn = None
-resultSet = False
 
 # retrieve user_name, password and host values from the system variables:
 user_name = os.environ['USER_NAME']
