@@ -4,9 +4,9 @@ import random
 
 
 # retrieve user_name, password and host values from the system variables:
-user_name = os.environ['USER_NAME']
-password = os.environ['PASSWORD']
-host = os.environ['HOST']
+user_name = os.environ['DB2_USER']
+password = os.environ['DB2_PASSWORD']
+host = os.environ['DB2_HOST']
 
 
 # provides connection
