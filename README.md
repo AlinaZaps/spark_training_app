@@ -106,4 +106,4 @@ How to use it:
     `--conf spark.kubernetes.authenticate.driver.serviceAccountName=spark  \`
 
     `local:///opt/spark/app/data_transformation.py`
-  - Check your COS bucket (you need to remove freshly added files)
+  - Check your COS bucket for the presence of the newly added file
