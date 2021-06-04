@@ -2,6 +2,8 @@
 
 We are making a Python training application that consists of four parts:
 
+
+  ``` 
   Part 1 - Data Load:
   - Connects to the DB2 instance on the cloud
   - Generates a table with 20k of sample records
@@ -11,9 +13,9 @@ We are making a Python training application that consists of four parts:
     - 12 columns with monthly purchases amount - numeric in 0..100000 range
   - There should be no duplicates for the same product/year
   - If there are multiple product rows for different years, product/group combination should be concise
+```
 
-
-
+```
   Part 2 - Data Transformation:
   - Create a data transformation application using Apache Spark
   - Read data from the DB2 on the cloud (use the service instance and data from the previous task)
@@ -23,16 +25,16 @@ We are making a Python training application that consists of four parts:
   - Remove the columns with monthly amounts from the data frame
   - Save the modified dataframe as a file in Cloud Object Storage - https://www.ibm.com/cloud/object-storage
   - Use spark-submit to run the application and Spark configuration properties to specify configuration parameters like DB URL and connection credentials
+```
 
-
-
+```
   Part 3 - Unit tests:
   - Add tests into the application
-  
-  
+  ```
+```  
   Part 4 - Spark + Kubernetes:
   - Run the application on minikube
-
+```
 
 How to use it:
 - Create an instance of DB2 service on the cloud - [DB2 instruction](https://cloud.ibm.com/docs/Db2onCloud?topic=Db2onCloud-faq_db2oc)
